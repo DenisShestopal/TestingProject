@@ -31,6 +31,7 @@ public class Ccs {
     }
 
     public void walk(int meters) {
+        if(meters>=0)
         calories = calories - (meters * 2);
 
     }

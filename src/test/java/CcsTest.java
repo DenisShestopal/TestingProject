@@ -45,6 +45,11 @@ public class CcsTest {
         ccs.seeCalories();
     }
 
+    @Test
+    public void canWalkNegative(){
+        ccs.walk(-1);
+    }
+
 
 
 
