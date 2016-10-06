@@ -1,14 +1,14 @@
 public class Ccs {
 
-    private int expectations;
+    private int expectation;
 
 
     public void drinkWater(int mls) {
 
     }
 
-    public boolean addExpectation(int mls) {
-
+    public boolean setExpectation(int mls) {
+        expectation = mls;
         return true;
     }
 }
