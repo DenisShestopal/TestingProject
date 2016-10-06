@@ -51,7 +51,7 @@ public class CcsTest {
     }
 
     @Test
-    public eatFood(){
+    public void eatFood(){
         ccs.eatSmth(100);
     }
 
