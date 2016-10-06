@@ -35,6 +35,11 @@ public class CcsTest {
         ccs.eatSmth();
     }
 
+    @Test
+    public void canWalk(){
+        ccs.walk(0);
+    }
+
 
 
 

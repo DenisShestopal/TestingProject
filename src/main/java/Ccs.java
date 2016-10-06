@@ -19,4 +19,8 @@ public class Ccs {
     public void eatSmth() {
 
     }
+
+    public void walk(int meters) {
+
+    }
 }
