@@ -24,4 +24,11 @@ public class CcsTest {
     public void canAddExpectation(){
         ccs.setExpectation(0);
     }
+
+    @Test
+    public void canAddNegativeExpectation(){
+        ccs.setExpectation(-1);
+    }
+
+
 }
