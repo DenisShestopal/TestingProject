@@ -56,11 +56,14 @@ public class CcsTest {
     }
 
     @Test
-    public void seeDailyResult(){
+    public void seeDailyWaterResult(){
         ccs.countDailyWaterResult();
     }
 
-
+    @Test
+    public void seeDailyCaloriesResult(){
+        ccs.countDailyCaloriesResult();
+    }
 
 
 

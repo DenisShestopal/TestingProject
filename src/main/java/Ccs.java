@@ -61,4 +61,8 @@ public class Ccs {
     public int countDailyWaterResult() {
         return this.waterExpectation - this.waterLevel;
     }
+
+    public int countDailyCaloriesResult() {
+        return this.caloriesExpectation - this.calories;
+    }
 }
