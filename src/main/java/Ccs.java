@@ -18,28 +18,30 @@ public class Ccs {
     }
 
     public void setCaloriesExpectation(int calories) {
-        if(calories<0)
-            calories=0;
+        calories = getValue(calories);
         this.caloriesExpectation = calories;
     }
 
     public boolean setWaterExpectation(int mls) {
-        if(mls<0)
-            mls=0;
+        mls = getValue(mls);
         waterExpectation = mls;
         return true;
     }
 
+    private int getValue(int value) {
+        if(value <0)
+            value =0;
+        return value;
+    }
+
 
     public void drinkWater(int mls) {
-        if(mls<0)
-            mls=0;
+        mls = getValue(mls);
         this.waterLevel += mls;
     }
 
     public void eatSmth(int calories) {
-        if(calories<0)
-            calories=0;
+        calories = getValue(calories);
         this.calories += calories;
     }
 
