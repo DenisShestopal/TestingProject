@@ -31,11 +31,6 @@ public class CcsTest {
     }
 
     @Test
-    public void canEatSmth(){
-        ccs.eatSmth();
-    }
-
-    @Test
     public void canWalk(){
         ccs.walk(0);
     }
