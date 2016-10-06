@@ -2,7 +2,7 @@ public class Ccs {
 
     private int waterExpectation;
     private int calories;
-    private double waterLevel;
+    private int waterLevel;
     private int caloriesExpectation;
 
     public int getWaterExpectation() {
@@ -58,4 +58,7 @@ public class Ccs {
     }
 
 
+    public int countDailyWaterResult() {
+        return this.waterExpectation - this.waterLevel;
+    }
 }

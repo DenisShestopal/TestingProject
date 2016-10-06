@@ -55,7 +55,10 @@ public class CcsTest {
         ccs.getWaterLevel();
     }
 
-
+    @Test
+    public void seeDailyResult(){
+        ccs.countDailyWaterResult();
+    }
 
 
 
