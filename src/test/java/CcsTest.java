@@ -50,6 +50,11 @@ public class CcsTest {
         ccs.walk(-1);
     }
 
+    @Test
+    public eatFood(){
+        ccs.eatSmth(100);
+    }
+
 
 
 

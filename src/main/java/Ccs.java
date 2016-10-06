@@ -26,13 +26,15 @@ public class Ccs {
     }
 
 
-    public void eatSmth() {
-
+    public void eatSmth(int calories) {
+        if(calories<0)
+            calories=0;
+        this.calories += calories;
     }
 
     public void walk(int meters) {
         if(meters>=0)
-        calories = calories - (meters * 2);
+        this.calories -= (meters * 2);
 
     }
 
