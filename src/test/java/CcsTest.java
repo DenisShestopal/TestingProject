@@ -40,6 +40,11 @@ public class CcsTest {
         ccs.walk(0);
     }
 
+    @Test
+    public void canSeeCallories(){
+        ccs.seeCallories();
+    }
+
 
 
 

@@ -3,6 +3,7 @@ import java.io.IOException;
 public class Ccs {
 
     private int expectation;
+    private int callories;
 
 
     public void drinkWater(int mls) {
@@ -21,6 +22,11 @@ public class Ccs {
     }
 
     public void walk(int meters) {
+        callories = callories - (meters * 2);
 
+    }
+
+    public void seeCallories() {
+        System.out.println(callories);
     }
 }
