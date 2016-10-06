@@ -2,6 +2,7 @@ public class Ccs {
 
     private int expectation;
     private int calories;
+    private double waterLevel;
 
     public int getExpectation() {
         return expectation;
@@ -40,5 +41,9 @@ public class Ccs {
 
     public void seeCalories() {
         System.out.println(this.calories);
+    }
+
+    public double getWaterLevel() {
+        return this.waterLevel;
     }
 }

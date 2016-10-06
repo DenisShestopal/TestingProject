@@ -50,6 +50,11 @@ public class CcsTest {
         ccs.eatSmth(100);
     }
 
+    @Test
+    public void seeWaterLevel(){
+        ccs.getWaterLevel();
+    }
+
 
 
 
