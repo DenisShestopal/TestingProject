@@ -30,5 +30,12 @@ public class CcsTest {
         ccs.setExpectation(-1);
     }
 
+    @Test
+    public void canEatSmth(){
+        ccs.eatSmth();
+    }
+
+
+
 
 }

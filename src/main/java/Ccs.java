@@ -6,7 +6,6 @@ public class Ccs {
 
 
     public void drinkWater(int mls) {
-
     }
 
     public boolean setExpectation(int mls) {
@@ -14,5 +13,10 @@ public class Ccs {
             mls=0;
         expectation = mls;
         return true;
+    }
+
+
+    public void eatSmth() {
+
     }
 }
