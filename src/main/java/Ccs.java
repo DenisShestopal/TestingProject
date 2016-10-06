@@ -5,6 +5,17 @@ public class Ccs {
     private int expectation;
     private int callories;
 
+    public int getExpectation() {
+        return expectation;
+    }
+
+    public int getCallories() {
+        return callories;
+    }
+
+    public void setCallories(int callories) {
+        this.callories = callories;
+    }
 
     public void drinkWater(int mls) {
     }
@@ -27,6 +38,6 @@ public class Ccs {
     }
 
     public void seeCallories() {
-        System.out.println(callories);
+        System.out.println(this.callories);
     }
 }
