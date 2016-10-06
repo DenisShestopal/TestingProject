@@ -19,4 +19,9 @@ public class CcsTest {
     public void canDrinkWater(){
         ccs.drinkWater(0);
     }
+
+    @Test
+    public void canAddExpectation(){
+        ccs.addExpectation(0);
+    }
 }
