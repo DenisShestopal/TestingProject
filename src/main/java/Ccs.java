@@ -17,6 +17,9 @@ public class Ccs {
     }
 
     public void drinkWater(int mls) {
+        if(mls<0)
+            mls=0;
+        this.waterLevel += mls;
     }
 
     public boolean setExpectation(int mls) {
