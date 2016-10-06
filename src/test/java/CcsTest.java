@@ -70,8 +70,9 @@ public class CcsTest {
         ccs.setWaterExpectation(1000);
         ccs.drinkWater(500);
         ccs.drinkWater(300);
-        assert (ccs.countDailyWaterResult() < 0);
+        assert (ccs.countDailyWaterResult() > 0);
     }
+
 
 
 
