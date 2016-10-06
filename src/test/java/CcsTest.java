@@ -65,6 +65,14 @@ public class CcsTest {
         ccs.countDailyCaloriesResult();
     }
 
+    @Test
+    public void isWaterDailyResultNegative(){
+        ccs.setWaterExpectation(1000);
+        ccs.drinkWater(500);
+        ccs.drinkWater(300);
+        assert (ccs.countDailyWaterResult() < 0);
+    }
+
 
 
 
