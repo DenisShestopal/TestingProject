@@ -1,11 +1,12 @@
 public class Ccs {
 
-    private int expectation;
+    private int waterExpectation;
     private int calories;
     private double waterLevel;
+    private int caloriesExpectation;
 
-    public int getExpectation() {
-        return expectation;
+    public int getWaterExpectation() {
+        return waterExpectation;
     }
 
     public int getCalories() {
@@ -16,19 +17,25 @@ public class Ccs {
         this.calories = calories;
     }
 
+    public void setCaloriesExpectation(int calories) {
+        if(calories<0)
+            calories=0;
+        this.caloriesExpectation = calories;
+    }
+
+    public boolean setWaterExpectation(int mls) {
+        if(mls<0)
+            mls=0;
+        waterExpectation = mls;
+        return true;
+    }
+
+
     public void drinkWater(int mls) {
         if(mls<0)
             mls=0;
         this.waterLevel += mls;
     }
-
-    public boolean setExpectation(int mls) {
-        if(mls<0)
-            mls=0;
-        expectation = mls;
-        return true;
-    }
-
 
     public void eatSmth(int calories) {
         if(calories<0)

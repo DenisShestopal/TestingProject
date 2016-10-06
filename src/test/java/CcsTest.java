@@ -22,12 +22,12 @@ public class CcsTest {
 
     @Test
     public void canAddExpectation(){
-        ccs.setExpectation(0);
+        ccs.setCaloriesExpectation(0);
     }
 
     @Test
     public void canAddNegativeExpectation(){
-        ccs.setExpectation(-1);
+        ccs.setWaterExpectation(-1);
     }
 
     @Test
@@ -46,12 +46,12 @@ public class CcsTest {
     }
 
     @Test
-    public void eatFood(){
+    public void canEatFood(){
         ccs.eatSmth(100);
     }
 
     @Test
-    public void seeWaterLevel(){
+    public void canSeeWaterLevel(){
         ccs.getWaterLevel();
     }
 
