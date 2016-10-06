@@ -1,20 +1,18 @@
-import java.io.IOException;
-
 public class Ccs {
 
     private int expectation;
-    private int callories;
+    private int calories;
 
     public int getExpectation() {
         return expectation;
     }
 
-    public int getCallories() {
-        return callories;
+    public int getCalories() {
+        return calories;
     }
 
-    public void setCallories(int callories) {
-        this.callories = callories;
+    public void setCalories(int calories) {
+        this.calories = calories;
     }
 
     public void drinkWater(int mls) {
@@ -33,11 +31,11 @@ public class Ccs {
     }
 
     public void walk(int meters) {
-        callories = callories - (meters * 2);
+        calories = calories - (meters * 2);
 
     }
 
-    public void seeCallories() {
-        System.out.println(this.callories);
+    public void seeCalories() {
+        System.out.println(this.calories);
     }
 }

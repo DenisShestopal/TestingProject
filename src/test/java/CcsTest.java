@@ -41,8 +41,8 @@ public class CcsTest {
     }
 
     @Test
-    public void canSeeCallories(){
-        ccs.seeCallories();
+    public void canSeeCalories(){
+        ccs.seeCalories();
     }
 
 
