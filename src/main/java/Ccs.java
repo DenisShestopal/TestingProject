@@ -5,13 +5,6 @@ public class Ccs {
     private int waterLevel;
     private int caloriesExpectation;
 
-    public int getWaterExpectation() {
-        return waterExpectation;
-    }
-
-    public int getCalories() {
-        return calories;
-    }
 
     public void setCalories(int calories) {
         this.calories = calories;
